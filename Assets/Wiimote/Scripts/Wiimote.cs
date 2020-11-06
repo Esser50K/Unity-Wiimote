@@ -550,6 +550,12 @@ namespace WiimoteApi
             return SendWithType(OutputDataType.LED, new byte[] { mask });
         }
 
+        //edit
+        public void SetWiimodeNr(int nr)
+        {
+            SendPlayerLED(nr == 1 || nr > 4, nr == 2 || nr == 5 || nr > 7, nr == 3 || nr == 6 || nr == 8 || nr > 9, nr == 4 || nr == 7 || nr == 9 || nr > 10);
+        }
+        //edit
         /// \brief Sets the Data Reporting mode of the Wii Remote.
         /// \param mode The data reporting mode desired.  This can be any InputDataType except for
         ///         InputDataType::STATUS_INFO, InputDataType::READ_MEMORY_REGISTERS, or InputDataType::ACKNOWLEDGE_OUTPUT_REPORT.
