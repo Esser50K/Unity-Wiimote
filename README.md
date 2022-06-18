@@ -22,7 +22,7 @@ API:
         - *Wii U Pro Controller*: All Buttons and Joysticks - The Wii U Pro Controller acts as a Wii Remote with a custom extension controller, so it is compatible with this API.
         - *Guitar Hero Guitar Controller*: All buttons, both strum directions, whammy, slider (touchbar), and analog stick
         - *Wii balance Board*: 4 different pressure values, with calibration mode (currently only relative)
-        - *PassthroughMode*: pass through the values of nunchucks and classic controllers while also passing through the motionplus data (tsted and works with: "-x0" remotes )
+        - *PassthroughMode*: pass through the values of nunchucks and classic controllers while also passing through the motionplus data (tested and works with: "-x0" remotes )
         - More extension controllers coming soon!  Raw data also available for custom extension controllers.
     - Controlling the remote's 4 LEDs
     - Status reporting (battery level, player LED state, etc.)
@@ -30,9 +30,10 @@ API:
 - **Fully Documented**: The API comes with an example scene in Unity3D that makes use of all of the API's functions.  The
   API itself is well commented and comes with [Doxygen](http://www.stack.nl/~dimitri/doxygen/) documentation.
 - **Open and Growing**: The API is licensed under the generous MIT license (see LICENSE.txt) so you can easily use it
-  in your projects.  Source code access lets you debug easer.  Of course, it's also free!
+  in your projects.  Source code access lets you debug easier.  Of course, it's also free!
 
 Installation
 ------------
 
 instal the package from this Repo
+
